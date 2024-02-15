@@ -12,7 +12,7 @@ function TodoList({ items ,setinputvalue}) {
       <div className="max-w-lg w-[90%] bg-white rounded-lg shadow-lg p-8 px-2 lg:px-8 border border-black h-fit">
         <div className="text-center text-3xl font-bold text-gray-800 mb-8">Todo List</div>
         <div className="space-y-4">
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
             <input
               type="checkbox"
               id="showTodosCheckbox"
